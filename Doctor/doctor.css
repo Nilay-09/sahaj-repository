@@ -7,7 +7,7 @@
 .doctor_info{
     margin: auto;
     margin-top: 3rem;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     width:60rem;
     /* height: fit-content; */
 
@@ -58,6 +58,10 @@ font-size: 1.1rem;
     margin-top: 0.5rem;
 }
 
+#basic-addon2,.fa-solid{
+    cursor: pointer;
+}
+
 
 
 .patientDetails{
@@ -66,10 +70,18 @@ font-size: 1.1rem;
     width: calc(100vw - 8rem);
     margin-left: 3rem;
     /* width: 50rem; */
+    
 }
 
 .col{
     /* border:solid black; */
+}
+
+.filter-row{
+   border-bottom:1px solid rgba(0, 0, 0, 0.35) ;
+}
+.details-col{
+    margin-top: 1rem;
 }
 
 .filter-date{
@@ -79,6 +91,33 @@ font-size: 1.1rem;
     font-size:x-large;
 }
 
+.details-col-cont{
+    height: 50rem;
+    overflow: scroll;
+}
+
+.detailsCont{
+    margin-top: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: flex;
+}
+
+.patient_info_history_card{
+    margin-top: 1rem;
+}
+
+.patient_info_history_card > *{
+    display: flex;
+    margin-left: 2rem;
+}
+.patient_info_history_card_info .txt{
+    margin-left: 5px;
+    font-size: large;
+}
+
+.addUpdate-btn{
+    margin-top: 2rem;
+}
 footer{
     margin-top: 2rem;
     
