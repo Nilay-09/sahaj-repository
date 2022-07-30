@@ -1,0 +1,85 @@
+.doctor{
+    margin-top: 7rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.doctor_info{
+    margin: auto;
+    margin-top: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width:60rem;
+    /* height: fit-content; */
+
+}
+
+.doctor_info_card{
+    display: flex;
+    flex-direction: row; 
+}
+
+.doctor_info_card .card-body>*{
+    width:50rem;
+}
+.doctor_info_card_details{
+    display: flex;
+}
+.doctor_info_card_details .card-title{
+    padding-right: 0.5rem;
+}
+
+.doctor_info_card_details .card-text{
+font-size: 1.1rem;
+}
+
+.doctor_info_card_details{
+    width: 50rem;
+}
+
+.patientIdCont{
+    display: flex;
+    margin:auto;
+    margin-top: 3rem;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* justify-content: center; */
+    width: 50rem;
+    font-weight: bold;
+    font-size: x-large;
+    border-radius: 10px;
+}
+
+.patientID-btn{
+    width:15rem;
+    margin-right: 1rem;
+}
+
+.input-group{
+    margin-top: 0.5rem;
+}
+
+
+
+.patientDetails{
+    margin-top:3rem ;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: calc(100vw - 8rem);
+    margin-left: 3rem;
+    /* width: 50rem; */
+}
+
+.col{
+    /* border:solid black; */
+}
+
+.filter-date{
+    font-size:x-large;
+}
+.filter-disease{
+    font-size:x-large;
+}
+
+footer{
+    margin-top: 2rem;
+    
+}

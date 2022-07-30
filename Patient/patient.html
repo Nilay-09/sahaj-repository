@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>HealthCare Record</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Custom styles for this template -->
+  <link href="./patient.css" rel="stylesheet">
+
+</head>
+
+<body>
+<h1 class="patient">Patient Profile</h1>
+  <!-- Navigation -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Health Care</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="patient_info">
+    <div class="card patient_info_card" style="width: 18rem;">
+        <img  class="img-fluid patient_card_img" src="../images/patient_profile_img.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div class="patient_info_card_details">
+            <h5 class="card-title patient_card_name">Name:</h5>
+            <p class="card-text">Abhiav Mahalley</p>
+          </div>
+          <div class="patient_info_card_details">
+            <h5 class="card-title patient_card_healtId">Health ID:</h5>
+            <p class="card-text">H-id_Abhiav@-22/ngp </p>
+          </div>
+          <div class="patient_info_card_details">
+            <h5 class="card-title patient_card_bloodGrp">Blood Group:</h5>
+            <p class="card-text">O+ </p>
+          </div>
+          <div class="patient_info_card_details">
+            <h5 class="card-title patient_card_age">Age:</h5>
+            <p class="card-text">21</p>
+          </div>
+          <div class="patient_info_card_details">
+            <h5 class="card-title patient_card_gender">Gender:</h5>
+            <p class="card-text">Male</p>
+          </div>
+          <div class="patient_info_card_details">
+            <h5 class="card-title patient_card_mobno">Mobile:</h5>
+            <p class="card-text">15626262166</p>
+          </div>
+          <div class="patient_info_card_details">
+            <h5 class="card-title patient_card_address">Address:</h5>
+            <p class="card-text">YCCE, Hingna, Nagpur.</p>
+          </div>
+         
+          <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+        </div>
+      </div>
+  </div>
+      
+  
+      <div class="container text-center main">
+        <div class="row">
+          <div class="col-4">
+            <ul class="list-group">
+              <li class="list-group-item history-btn active" onclick="history(e.target)">History</li>
+              <!-- <li class="list-group-item medicine-btn" >Medicine</li> -->
+              <li class="list-group-item disease-btn" onclick="disease(this)">Disease</li>
+              <!-- <li class="list-group-item ">Diagnoses</li> -->
+              <li class="list-group-item insurance-btn " onclick="insurance(this)">Insurance</li>
+            </ul>
+          </div>
+          <div class="col-8">
+            <div class="history">
+              <div  class="patient_info_history_card">
+                <div class="patient_info_history_card_info date">
+                  <h5>Date:</h5>
+                  <p class="txt">26/15/2022</p>
+                </div>
+                <div class="patient_info_history_card_info dis">
+                  <h5>Disease:</h5>
+                  <p class="txt">Chickenpox</p>
+                </div>
+                <div class="patient_info_history_card_info trt">
+                  <h5>Treatement By:</h5>
+                  <p class="txt">Dr.Verma</p>
+                </div>
+                <div class="patient_info_history_card_info med">
+                  <h5>Medicines:</h5>
+                  <p class="txt">xyz</p>
+                </div>
+                <div class="patient_info_history_card_info dig">
+                  <h5>Diagnoses:</h5>
+                  <p class="txt">Loss of appetite,aching muscules and head ache</p>
+                </div>
+
+              </div>
+              <!--  -->
+              <div  class="patient_info_history_card">
+                <div class="patient_info_history_card_info date">
+                  <h5>Date:</h5>
+                  <p class="txt">25/15/2022</p>
+                </div>
+                <div class="patient_info_history_card_info dis">
+                  <h5>Disease:</h5>
+                  <p class="txt">Maleria</p>
+                </div>
+                <div class="patient_info_history_card_info trt">
+                  <h5>Treatement By:</h5>
+                  <p class="txt">Dr.Sharma</p>
+                </div>
+                <div class="patient_info_history_card_info med">
+                  <h5 >Medicines:</h5>
+                  <p class="txt">xyz</p>
+                </div>
+                <div class="patient_info_history_card_info dig">
+                  <h5>Diagnoses:</h5>
+                  <p class="txt">Fever, head ache, blood cell plotted</p>
+                </div>
+
+              </div>
+              <!--  -->
+              <div  class="patient_info_history_card">
+                <div class="patient_info_history_card_info date">
+                  <h5>Date:</h5>
+                  <p class="txt">25/15/2022</p>
+                </div>
+                <div class="patient_info_history_card_info dis">
+                  <h5>Disease:</h5>
+                  <p class="txt">Hepatitis</p>
+                </div>
+                <div class="patient_info_history_card_info tt">
+                  <h5>Treatement By:</h5>
+                  <p class="txt">Dr.chopde</p>
+                </div>
+                <div class="patient_info_history_card_info med">
+                  <h5 >Medicines:</h5>
+                  <p class="txt">xyz</p>
+                </div>
+                <div class="patient_info_history_card_info dig">
+                  <h5>Diagnoses:</h5>
+                  <p class="txt">Yellow eyes, ebdominal pain</p>
+                </div>
+
+              </div>
+
+            </div>
+            
+            <div class="disease">
+              <div  class="patient_info_medicine_history_card">
+                <div class="patient_info_history_card_info date">
+                  <h5>Disease:</h5>
+                  <p class="txt">Maleria</p>
+                </div>
+                <div class="patient_info_history_card_info date">
+                  <h5>Date:</h5>
+                  <p class="txt">25/15/2022</p>
+                </div>
+              </div>
+
+              <div  class="patient_info_medicine_history_card">
+                <div class="patient_info_history_card_info date">
+                  <h5>Disease:</h5>
+                  <p class="txt">Chickenpox</p>
+                </div>
+                <div class="patient_info_history_card_info date">
+                  <h5>Date:</h5>
+                  <p class="txt">25/05/2022</p>
+                </div>
+              </div>
+
+              <div  class="patient_info_medicine_history_card">
+                <div class="patient_info_history_card_info date">
+                  <h5>Disease:</h5>
+                  <p class="txt">Hepatitis</p>
+                </div>
+                <div class="patient_info_history_card_info date">
+                  <h5>Date:</h5>
+                  <p class="txt">15/05/2022</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="insurance">
+              <div  class="patient_info_insurance_history_card">
+                <div class="patient_info_history_card_info ">
+                  <h5>Insurance Name:</h5>
+                  <p class="txt">CRITICAL CARE HEALTH INSURANCE PLAN</p>
+                </div>
+                
+                <div class="patient_info_history_card_info date-flex">
+                  <div class="date">
+                    <h5> Start Date:</h5>
+                    <p class="txt">25/05/2022</p>
+                  </div>
+                  <div class=" date exp-date">
+                    <h5> End Date:</h5>
+                    <p class="txt">25/05/2023</p>
+                  </div>
+                </div>
+
+                <div class="patient_info_history_card_info ">
+                  <h5>Benificary:</h5>
+                  <p class="txt">Provides you with Lump sum money in case of critical illness or surgery such as Organ Transplantation that a normal Health Insurance Policy may not cover</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <footer class="py-5 bg-dark">
+        <div class="container">
+          <p class="m-0 text-center text-white">
+            Copyright &copy; ALPHA BYTES
+          </p>
+        </div>
+        <!-- /.container -->
+      </footer>
+
+
+
+
+ <!-- Bootstrap core JavaScript -->
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
+
+  <script src="./patient.js"></script>
+</body>
+
+</html>

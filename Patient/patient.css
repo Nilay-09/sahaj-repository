@@ -1,0 +1,118 @@
+.patient{
+    margin-top: 7rem;
+    text-align: center;
+    font-weight: bold;
+}
+.patient_info{
+    margin: auto;
+    margin-top: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width:60rem;
+    /* height: fit-content; */
+
+}
+
+.patient_info_card{
+    display: flex;
+    flex-direction: row; 
+}
+
+.patient_info_card .card-body>*{
+    width:20rem;
+}
+.patient_info_card_details{
+    display: flex;
+}
+.patient_info_card_details .card-title{
+    padding-right: 0.5rem;
+}
+
+.patient_info_card_details .card-text{
+font-size: 1.1rem;
+}
+
+.main{
+    margin-top: 5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 0;
+    height: 40rem;
+    overflow: scroll;
+}
+
+.patient_info_history{
+    margin-top:1rem;
+    width: 15rem;
+    
+}
+
+.patient_info_history .card-body{
+    width:100vh;
+}
+/* .main .row .col-4{
+    padding: 1rem;
+} */
+
+.col-8{
+    /* overflow: scroll; */
+    padding: 0.5rem;
+}
+
+/* .history{
+    display:none;
+} */
+.patient_info_history_card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 1rem;
+  margin-top: 1rem;
+  width: 45rem;
+}
+
+.patient_info_history_card > *{
+    display: flex;
+    margin-left: 1rem;
+}
+.patient_info_history_card_info .txt{
+    margin-left: 0.3rem;
+}
+
+
+.patient_info_medicine_history_card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 1rem;
+  margin-top: 1rem;
+  width: 45rem; 
+  display: flex; 
+  justify-content: space-around;
+}
+
+.patient_info_medicine_history_card > * {
+    display: flex;
+}
+
+.disease{
+    display:none;
+}
+
+.patient_info_insurance_history_card{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 1rem;
+  margin-top: 1rem;
+  width: 45rem; 
+}
+.insurance{
+    display: none;
+}
+.patient_info_insurance_history_card > *{
+    display: flex;
+}
+.patient_info_insurance_history_card .date{
+    display: flex;
+    flex-direction: row;
+}
+.patient_info_insurance_history_card  .exp-date{
+    margin-left: 2rem;
+}
+
+footer{
+    margin-top: 2rem;
+}
